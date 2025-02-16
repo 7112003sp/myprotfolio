@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+  font-family: prot1;
+  src: url(./assets/file8.woff2);
+}
+@font-face{
+  font-family: prot2;
+  src:url(./assets/file9.woff2);
+}
+@font-face{
+  font-family: prot3;
+  src:url(./assets/file10.woff2);
+}
+@font-face{
+  font-family: prot4;
+  src:url(./assets/file11.woff2);
+}
+@font-face{
+  font-family: prot5;
+  src:url(./assets/file12.woff2);
+}
+@font-face{
+  font-family: specialprot;
+  src: url(./assets/madefor-text.var.original1.woff2);
+}
+*{
+
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Gill Sans';
+  color: white;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+#page-in{
+  perspective: 1000px;
+  position: relative;
+  background-color: black;
+}
+#section2{
+  perspective: 2000px;
+  position: relative;
+}
+
+#tiltdiv{
+
+  width: fit-content;
+
+  
+}
+.rotatetext{
+  transform-origin: 100% 70%;
+}
+.text-animation{
+  transform-origin: 100% 70%;
+}
+
+#new-section-for-parentclass{
+  perspective: 2000px;
+  position: relative;
+}
+#textcolor{
+  color: #1E90FF;
+}
+
